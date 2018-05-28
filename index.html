@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои путешествия</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+</head>
+<body>
+    <header id="top">
+    <div class="header">    </div>
+    <div class="blackheader">
+    <h1>МОИ ПУТЕШЕСТВИЯ
+      <div class="star1"></div>
+      <div class="star2"></div>
+      <div class="star3"></div>
+      <div class="star4"></div>
+      <div class="star5"></div>
+      <div class="star6"></div>
+      <div class="star7"></div>
+      <div class="star8"></div>
+      <div class="star9"></div>
+      </h1>
+    </div>
+    </header>
+    
+    <main>
+       <div  class="vv"> <p>Я путешествую по Европе со своей семьёй. Обычно мы делаем это на машине. <br> Возможно это долго, но зато, в дороге знакомишься с настоящей страной, и заезжаешь в небольшие деревеньки. Это очень здорово. <br> На этом сайте я расскажу о странах, которые мне очень понравились. </p></div>
+       <div class="germ"></div>
+        <a href="germany.html"><div class="pic ger"></div><div class="black">Германия</div> </a>
+        <div class="avstr"></div> 
+        <a href="avstria.html"><div class="pic avstr"></div><div class="black">Австрия</div></a>
+        <div class="cheh"></div>
+        <a href="cheh.html"><div class="pic chehh"></div> <div class="black">Чехия</div></a>
+        <div id="menu"> <a href="#top"><div class="top"><i class="fa fa-angle-double-up fa-5x" aria-hidden="true"></i></div></a></div>
+    </main>
+    
+    <footer>
+        <p>Оржевская Лилия,2018</p>
+    </footer>
+    
+    
+</body>
+</html>

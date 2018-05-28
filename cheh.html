@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Чехия</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+</head>
+<body>
+    <header >
+    <div class="hhh"> <h1 class="head">Чехия</h1></div> 
+    </header>
+    <main>
+       <div class="avstrma">
+       <h2 class="text">Прага </h2>
+       <p>Конечно же больше всего мне запомнилась еда. А именно - трдельник. Трдельник - булочка с корицей и сахаром.<br>Его часто подают с шоколадом, сливками, вареньем, клубникой. Он очень вкусный. За один день я умудрилась съесть 3 штуки.</p>
+       <div class="trd border"></div>
+       <h3 class="text">Достопримечательности</h3>
+       <div class="display"><div class="karl1 border"></div><div class="karl2 border"></div></div>
+       <p>Карлов мост</p>
+       <div class="tanz border"></div>
+       <p>Танцующий дом</p>
+       <div class="kyra border"></div>
+       <p>Пражские куранты</p>
+       <div class="magn border"></div>
+       <p>Просто очень красивая магнолия</p>
+       <div class="brat border" ></div>
+       <p>Мой младший брат и единственная фотография</p>
+        <a href="index.html"><div class="ng text">На главную</div></a>
+        </div>
+    </main>
+    <footer>
+        <p>Оржевская Лилия,2018</p>
+    </footer>
+</body>
+</html>

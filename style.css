@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@keyframes stars{
+    0% {    transform: rotate(60deg);}
+    100%{    transform: rotate(100deg);}
+}
+body{margin: 0px}
+
+
+.header{
+    background-image:url(http://leppardlaw.com/wp-content/uploads/dui-1-1920x1080.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 700px;
+    position: absolute;
+    z-index:1;
+    
+}
+
+.blackheader{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:220px;
+    width: 100%;
+    height: 700px;
+    background-color:rgba(0,0,0,0.35);
+    position: relative;
+    z-index: 2;
+
+}
+
+.star1{
+    background-image: url(starr.png);
+    height: 46px;
+    width: 50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.8s linear;
+       left: 730px;
+    animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star1{
+     display:block;
+    top:230px;
+ 
+   
+}
+.star2{
+    background-image: url(starr.png);
+    height: 46px;
+    width: 50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.85s linear ;
+       left: 830px;
+    animation: stars 1.5s infinite alternate;
+
+
+}
+
+.blackheader h1:hover .star2{
+     display:block;
+    top:230px;
+ 
+   
+}
+.star3{
+    background-image: url(starr.png);
+    height: 46px;
+    width: 50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.9s linear;
+       left: 930px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star3{
+     display:block;
+    top:230px;
+ 
+   
+}
+.star4{
+    background-image: url(starr.png);
+    height: 46px;
+    width: 50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.95s linear;
+       left: 1030px;
+    animation: stars 1.5s infinite alternate;
+
+
+}
+
+.blackheader h1:hover .star4{
+     display:block;
+    top:230px;
+ 
+   
+}
+.star5{
+    background-image: url(starr.png);
+    height: 46px;
+    width: 50px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 1s linear;
+       left: 1130px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star5{
+     display:block;
+    top:230px;
+ 
+   
+}
+
+.star6{
+    background-image: url(starr.png);
+    height: 33px;
+    width: 35px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.7s linear;
+       left: 785px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star6{
+     display:block;
+    top:200px;
+ 
+   
+}
+
+.star7{
+    background-image: url(starr.png);
+    height: 33px;
+    width: 35px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.7s linear;
+       left: 885px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star7{
+     display:block;
+    top:200px;
+ 
+   
+}
+
+.star9{
+    background-image: url(starr.png);
+    height: 33px;
+    width: 35px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.7s linear;
+       left: 985px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star9{
+     display:block;
+    top:200px;
+ 
+   
+}
+.star8{
+    background-image: url(starr.png);
+    height: 33px;
+    width: 35px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-100px;
+    transition: all 0.7s linear;
+       left: 1085px;
+animation: stars 1.5s infinite alternate;
+
+}
+
+.blackheader h1:hover .star8{
+     display:block;
+    top:200px;
+    
+}
+
+.black{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.35);
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:250px;
+    position: relative;
+    margin-top: -600px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+va:link{
+    color: white;
+}
+a:active{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+.top{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0,0,0,0.4) ;
+    left: 120px;
+    bottom: 50px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    text-align: center;
+    
+}
+footer{
+   background-color: #000; 
+    height: 50px;
+    color: white;
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 7px;
+}
+
+.head{
+   font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+
+.hhh{
+    width: 100%;
+    height: 150px;
+     background-color: rgba(0,0,0,0.4) ;
+    margin-top: -32px;
+    padding-top: 20px;
+}
+
+.pic{
+  
+     width: 1200px;
+    height: 600px;
+     position:relative;
+     margin: auto;
+    background-size:cover;
+    
+    
+}
+
+.ger{
+     background-image: url(germania.jpg); 
+}
+.chehh{
+    background-image: url(cheh1.jpg);
+}
+
+.avstr{
+ background-image: url(austria.jpg);   
+}
+
+.poe   {
+  background-image: url(poezdk.jpg);  
+}
+.ng{
+    height: 50px;
+    width: 170px;
+    background-color: dodgerblue;
+    color:white;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 19px;
+}
+.vv{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    
+}
+.text{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+}
+.avstrma{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+.display{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+
+.photo1{
+    background-image: url(prater.jpg);
+    height: 450px;
+    width: 300px;
+    background-size:cover;
+    margin-right: 100px;
+}
+.photo2{
+    background-image: url(kobra.jpg);
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+
+        
+}
+
+.avstrma p{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+}
+
+.photo3{
+    background-image: url(stefan.jpg);
+    height: 450px;
+    width: 379px;
+    background-size:contain;  
+    margin: auto;
+}
+
+.border {
+    border-width:10px;
+    border-style: double;
+    border-color:white;
+    
+}
+.gr1{
+    background-image: url(gr2.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-right: 20px;
+}
+.gr2{
+    background-image: url(gr1.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+     margin-right: 20px;
+}
+.gr3{
+    background-image: url(gr3.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.graz{
+    background-image: url(graz.jpg);
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.trd{
+    background-image: url(trdelnik.jpg);
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.karl1{
+    background-image: url(karl1.jpg);
+    height: 300px;
+    width: 500px;
+    background-size:cover;
+    margin-right: 40px;
+}
+
+.karl2{
+    background-image: url(karl2.jpg);
+    height: 300px;
+    width: 500px;
+    background-size:cover;
+}
+
+.tanz{
+    background-image: url(praga.jpg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.kyra{
+    background-image: url(kyr.jpg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.magn{
+    background-image: url(magn.jpg);
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    background-size:cover;
+    margin-top: 70px;
+}
+
+.avstrma h2{
+    margin-top: 70px;
+}
+
+.brat{
+    background-image: url(pprraaga.jpg);
+    height: 300px;
+    width: 500px;
+    background-size:cover;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.bra{
+    background-image: url(brandb.jpg);
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.bber{
+    background-image: url(img_3798iqpy1.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.telba {
+    background-image: url(teleba.jpg);
+    height: 300px;
+    width: 500px;
+    background-size:contain;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.pad{
+    background-image: url(pader.jpg);
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    margin: auto;
+}
+
+.mac{
+    background-image: url(mac.jpg);
+    background-size:cover;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}

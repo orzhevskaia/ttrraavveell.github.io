@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Германия</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+</head>
+<body>
+    <header >
+       <div class="hhh"><h1 class="head">Германия</h1></div> 
+    </header>
+    <main>
+       <div class="avstrma">
+       <h2 class="text">Берлин</h2>
+       <p>В Берлине мы были пару часов, но он все равно мне очень понравился.</p>
+       <div class="bra border"></div>
+       <p>Бранденбургские ворота</p>
+       <div class="bber border"></div>
+       <p>Берлинский кафедральный собор</p>
+       <div class="telba border"></div>
+       <p>Берлинская телебашня</p>
+       <h2 class="text">Падерборн</h2>
+       <p>Этот небольшой город мне понравился из-за множества маленьких речушек. По всему городку стоят мостики. Это очень мило.</p>
+       <div class="pad border"></div>
+        <a href="index.html"><div class="ng">На главную</div></a>
+        </div>
+    </main>
+    <footer>
+        <p>Оржевская Лилия,2018</p>
+    </footer>
+</body>
+</html>

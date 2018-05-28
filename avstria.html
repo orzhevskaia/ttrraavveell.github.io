@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Австрия</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+</head>
+<body>
+    <header>
+   <div class="hhh"> <h1 class="head">Австрия</h1></div> 
+     </header>
+    <main>
+      <div class="avstrma">
+       <h2 class="text">Вена</h2> 
+        <p class="text">Вена - очень красивый город. В Вене есть парк аттракционов "Пратер". Он известен самой высокой в мире цепочной каруселью. <br> С нее открывается вид на всю Вену. <br>К сожалению, я не смогла её посетить, хоть и была там 2 раза. Уверена, что приеду туда и в 3 раз.</p>
+        <p class="text">Также мне очень понравился аттракцион "Кобра".</p>
+           <div class="display"><div class="photo1 border"></div><div class="photo2 border"></div></div>
+           <p>Cобор Святого Стефана </p>
+           <div class="photo3 border"></div>
+           <h2 class="text">Цель-Ам-Зе</h2>
+           <p>Цель-Ам-Зе - курортный город. Здесь нет никаких достопримечательностей, но горы поражают своей красотой. <br>В Цель-Ам-Зе я впервые встала на горные лыжи. Я бы с радостью приехала туда зимой, и научилась бы кататься на сноуборде.</p>
+           <div class="display">
+           <div class="gr1 border"></div>
+           <div class="gr2 border"></div>
+           <div class="gr3 border"></div>
+           </div>
+           <h2 class="text">Зальцбург</h2>
+           <p>Зальцбург - старый город. Когда-то в этом городе жил сам Моцарт. Больше всего в этом городе меня порадовала вывеска Макдональдса из железа.</p>
+           <div class="mac border"></div>
+           <h2 class="text">Грац</h2>
+           <p>Грац - просто красивый город =D</p>
+           <div class="graz border"></div>
+           <p>Пока  писала про Австрию, очень захотелось штруделя и торт "Захер".</p>
+        <a href="index.html"><div class="ng">На главную</div></a>
+        </div>
+    </main>
+    <footer>
+        <p>Оржевская Лилия,2018</p>
+    </footer>
+</body>
+</html>
